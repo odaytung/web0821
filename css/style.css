@@ -1,0 +1,54 @@
+/* 預設邊界先都調整為零 */
+* {
+    margin: 0;
+}
+
+
+/* 背景 */
+body {
+    background-color: #eee;
+}
+
+/* 最外層 */
+.wrap {
+    background-color: #fff;
+    width: 770px;
+    margin: 0 auto;         /*外邊框*/
+    padding: 50px 30px;     /*內邊框*/
+    
+}
+
+h1{
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+h3{
+    margin: 20px 0;
+}
+
+p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* 相對於最外層 */
+figure {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* 相對於父元素 fugure width="770px" */
+/* 圖片 */
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
